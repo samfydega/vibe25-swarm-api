@@ -1,0 +1,11 @@
+name = "vibe25-worker"
+main = "src/index.ts"
+compatibility_date = "2025-03-10"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "vibe25-db"
+database_id = "c9262e71-898c-450d-990f-bc42fe17f6e9"
+
+# Set NGROK_API_KEY with `wrangler secret put NGROK_API_KEY`.
